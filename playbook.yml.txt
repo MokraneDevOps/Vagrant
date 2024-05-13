@@ -1,0 +1,22 @@
+- name: Installer et configurer Nginx
+  hosts: all
+  become: true
+  vars:
+    ansible_python_interpreter: /usr/bin/python3
+  tasks:
+    - name: Update apt cache
+      ansible.builtin.apt:
+        update_cache: yes
+      become: true
+
+    - name: Installation de Nginx
+      ansible.builtin.apt:
+        name: nginx
+        state: present
+      become: true
+
+    - name: Démarrage du service Nginx
+      ansible.builtin.service:
+        name: nginx
+        state: started
+        enabled: yes
