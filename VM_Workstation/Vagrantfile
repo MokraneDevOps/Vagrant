@@ -1,0 +1,37 @@
+Vagrant.configure("2") do |config|
+  # Configuration pour la machine virtuelle "master"
+  config.vm.define "master" do |master|
+    master.vm.box = "generic/ubuntu2004"  # Utilisation de la boîte Ubuntu 20.04 compatible avec VMware Workstation
+    master.vm.hostname = "master"  # Définition du nom d'hôte de la machine "master"
+
+    # Configuration spécifique au fournisseur VMware Workstation Pro pour la machine "master"
+    master.vm.provider "vmware_workstation" do |vmw|
+      vmw.vmx["memsize"] = "1024"  # Mémoire de 1024 Mo pour la machine "master"
+      vmw.vmx["numvcpus"] = "2"  # 2 CPU pour la machine "master"
+    end
+  end
+
+  # Configuration pour la machine virtuelle "worker1"
+  config.vm.define "worker1" do |worker1|
+    worker1.vm.box = "generic/ubuntu2004"  # Utilisation de la boîte Ubuntu 20.04 compatible avec VMware Workstation
+    worker1.vm.hostname = "worker1"  # Définition du nom d'hôte de la machine "worker1"
+
+    # Configuration spécifique au fournisseur VMware Workstation Pro pour la machine "worker1"
+    worker1.vm.provider "vmware_workstation" do |vmw|
+      vmw.vmx["memsize"] = "1024"  # Mémoire de 1024 Mo pour la machine "worker1"
+      vmw.vmx["numvcpus"] = "2"  # 2 CPU pour la machine "worker1"
+    end
+  end
+
+  # Configuration pour la machine virtuelle "worker2"
+  config.vm.define "worker2" do |worker2|
+    worker2.vm.box = "generic/ubuntu2004"  # Utilisation de la boîte Ubuntu 20.04 compatible avec VMware Workstation
+    worker2.vm.hostname = "worker2"  # Définition du nom d'hôte de la machine "worker2"
+
+    # Configuration spécifique au fournisseur VMware Workstation Pro pour la machine "worker2"
+    worker2.vm.provider "vmware_workstation" do |vmw|
+      vmw.vmx["memsize"] = "1024"  # Mémoire de 1024 Mo pour la machine "worker2"
+      vmw.vmx["numvcpus"] = "2"  # 2 CPU pour la machine "worker2"
+    end
+  end
+end
