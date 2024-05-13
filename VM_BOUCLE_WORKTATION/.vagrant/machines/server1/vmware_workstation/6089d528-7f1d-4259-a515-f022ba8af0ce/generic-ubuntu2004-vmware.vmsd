@@ -1,0 +1,5 @@
+.encoding = "windows-1252"
+cloneOf0 = "C:\Users\mokrane\.vagrant.d\boxes\generic-VAGRANTSLASH-ubuntu2004\4.3.2\vmware_desktop\generic-ubuntu2004-vmware.vmx"
+numCloneOf = "1"
+sentinel0 = "generic-ubuntu2004-vmware-cl1.vmdk"
+numSentinels = "1"

@@ -1,6 +1,11 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby
+VM1 = "master"
+VM2 = "worker1"
+VM3 = "worker2"
 Vagrant.configure("2") do |config|
   # Configuration pour la machine virtuelle "master"
-  config.vm.define "master" do |master|
+  config.vm.define VM1 do |master|
     master.vm.box = "generic/ubuntu2004"  # Utilisation de la boîte Ubuntu 20.04 compatible avec VMware Workstation
     master.vm.hostname = "master"  # Définition du nom d'hôte de la machine "master"
 
@@ -12,7 +17,7 @@ Vagrant.configure("2") do |config|
   end
 
   # Configuration pour la machine virtuelle "worker1"
-  config.vm.define "worker1" do |worker1|
+  config.vm.define VM2 do |worker1|
     worker1.vm.box = "generic/ubuntu2004"  # Utilisation de la boîte Ubuntu 20.04 compatible avec VMware Workstation
     worker1.vm.hostname = "worker1"  # Définition du nom d'hôte de la machine "worker1"
 
@@ -24,7 +29,7 @@ Vagrant.configure("2") do |config|
   end
 
   # Configuration pour la machine virtuelle "worker2"
-  config.vm.define "worker2" do |worker2|
+  config.vm.define  VM3 do |worker2|
     worker2.vm.box = "generic/ubuntu2004"  # Utilisation de la boîte Ubuntu 20.04 compatible avec VMware Workstation
     worker2.vm.hostname = "worker2"  # Définition du nom d'hôte de la machine "worker2"
 

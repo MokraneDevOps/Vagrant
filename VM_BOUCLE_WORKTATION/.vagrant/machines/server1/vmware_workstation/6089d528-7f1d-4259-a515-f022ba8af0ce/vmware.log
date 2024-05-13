@@ -1,0 +1,540 @@
+2024-05-13T18:05:36.194Z In(05) vmx Log for VMware Workstation pid=9936 version=17.0.0 build=build-20800274 option=Release
+2024-05-13T18:05:36.194Z In(05) vmx The host is x86_64.
+2024-05-13T18:05:36.194Z In(05) vmx Host codepage=windows-1252 encoding=windows-1252
+2024-05-13T18:05:36.194Z In(05) vmx Host is Windows 11 Home, 64-bit (Build 22621.3527)
+2024-05-13T18:05:36.194Z In(05) vmx Host offset from UTC is -01:00.
+2024-05-13T18:05:36.164Z In(05) vmx VTHREAD 18668 "vmx"
+2024-05-13T18:05:36.167Z In(05) vmx LOCALE windows-1252 -> NULL User=40c System=40c
+2024-05-13T18:05:36.167Z In(05) vmx Msg_SetLocaleEx: HostLocale=windows-1252 UserLocale=NULL
+2024-05-13T18:05:36.177Z In(05) vmx DictionaryLoad: Cannot open file "C:\Users\mokrane\AppData\Roaming\VMware\config.ini": Unknown error 2 (0x2).
+2024-05-13T18:05:36.177Z In(05) vmx Msg_Reset:
+2024-05-13T18:05:36.177Z In(05) vmx [msg.dictionary.load.openFailed] Cannot open file "C:\Users\mokrane\AppData\Roaming\VMware\config.ini": Unknown error 2 (0x2).
+2024-05-13T18:05:36.177Z In(05) vmx ----------------------------------------
+2024-05-13T18:05:36.177Z In(05) vmx ConfigDB: Failed to load C:\Users\mokrane\AppData\Roaming\VMware\config.ini
+2024-05-13T18:05:36.179Z In(05) vmx Win32U_GetFileAttributes: GetFileAttributesExW("C:\Users\mokrane\.vagrant.d\boxes\ubuntu-VAGRANTSLASH-trusty64\20190514.0.0\virtualbox\workshop\VM_BOUCLE_WORKTATION\.vagrant\machines\server1\vmware_workstation\6089d528-7f1d-4259-a515-f022ba8af0ce\generic-ubuntu2004-vmware.vmpl", ...) failed, error: 2
+2024-05-13T18:05:36.179Z In(05) vmx OBJLIB-LIB: Objlib initialized.
+2024-05-13T18:05:36.182Z In(05) vmx DictionaryLoad: Cannot open file "C:\Users\mokrane\AppData\Roaming\VMware\config.ini": Unknown error 2 (0x2).
+2024-05-13T18:05:36.182Z In(05) vmx [msg.dictionary.load.openFailed] Cannot open file "C:\Users\mokrane\AppData\Roaming\VMware\config.ini": Unknown error 2 (0x2).
+2024-05-13T18:05:36.182Z In(05) vmx PREF Optional preferences file not found at C:\Users\mokrane\AppData\Roaming\VMware\config.ini. Using default values.
+2024-05-13T18:05:36.188Z In(05) vmx lib/ssl: OpenSSL using RAND_OpenSSL for RAND
+2024-05-13T18:05:36.188Z In(05) vmx lib/ssl: protocol list tls1.2
+2024-05-13T18:05:36.188Z In(05) vmx lib/ssl: protocol list tls1.2 (openssl flags 0x36000000)
+2024-05-13T18:05:36.188Z In(05) vmx lib/ssl: cipher list ECDHE+AESGCM:RSA+AESGCM:ECDHE+AES:RSA+AES
+2024-05-13T18:05:36.188Z In(05) vmx lib/ssl: curves list prime256v1:secp384r1:secp521r1
+2024-05-13T18:05:36.199Z In(05) vmx Hostname=DESKTOP-A3HABDN
+2024-05-13T18:05:36.205Z In(05) vmx IP=fe80::5f69:1988:a0e0:318c%7
+2024-05-13T18:05:36.205Z In(05) vmx IP=fe80::11e6:9fde:bc5a:d146%19
+2024-05-13T18:05:36.205Z In(05) vmx IP=fe80::94bf:fa70:42ac:dc14%3
+2024-05-13T18:05:36.205Z In(05) vmx IP=fe80::d3c6:9763:5c04:ceb3%10
+2024-05-13T18:05:36.205Z In(05) vmx IP=2a01:e0a:e0f:b260:981d:bad7:d726:e7e1
+2024-05-13T18:05:36.205Z In(05) vmx IP=2a01:e0a:e0f:b260:8d2e:d4e8:bf8f:8e5b
+2024-05-13T18:05:36.205Z In(05) vmx IP=192.168.198.1
+2024-05-13T18:05:36.205Z In(05) vmx IP=192.168.179.1
+2024-05-13T18:05:36.205Z In(05) vmx IP=192.168.1.125
+2024-05-13T18:05:36.205Z In(05) vmx IP=192.168.58.1
+2024-05-13T18:05:36.237Z In(05) vmx System uptime 104300539422 us
+2024-05-13T18:05:36.237Z In(05) vmx Command line: "C:\Program Files (x86)\VMware\VMware Workstation\x64\vmware-vmx.exe" "-T" "querytoken" "-s" "vmx.noUIBuildNumberCheck=TRUE" "-#" "product=1;name=VMware Workstation;version=17.0.0;buildnumber=20800274;licensename=VMware Workstation;licenseversion=17.0;" "-@" "pipe=\\.\pipe\vmx42e4b8af95c56431;msgs=ui" "C:\Users\mokrane\.vagrant.d\boxes\ubuntu-VAGRANTSLASH-trusty64\20190514.0.0\virtualbox\workshop\VM_BOUCLE_WORKTATION\.vagrant\machines\server1\vmware_workstation\6089d528-7f1d-4259-a515-f022ba8af0ce\generic-ubuntu2004-vmware.vmx"
+2024-05-13T18:05:36.237Z In(05) vmx Msg_SetLocaleEx: HostLocale=windows-1252 UserLocale=NULL
+2024-05-13T18:05:36.276Z In(05) vmx WQPoolAllocPoll : pollIx = 1, signalHandle = 856
+2024-05-13T18:05:36.277Z In(05) vmx WQPoolAllocPoll : pollIx = 2, signalHandle = 864
+2024-05-13T18:05:36.278Z In(05) vmx VigorTransport listening on fd 824
+2024-05-13T18:05:36.278Z In(05) vmx Vigor_Init 1
+2024-05-13T18:05:36.278Z In(05) vmx Connecting 'ui' to pipe '\\.\pipe\vmx42e4b8af95c56431' with user '(null)'
+2024-05-13T18:05:36.278Z In(05) vmx VMXVmdb: Local connection timeout: 60000 ms.
+2024-05-13T18:05:36.357Z In(05) vmx VmdbAddConnection: cnxPath=/db/connection/#1/, cnxIx=1
+2024-05-13T18:05:36.358Z In(05) vmx Vix: [mainDispatch.c:488]: VMAutomation: Initializing VMAutomation.
+2024-05-13T18:05:36.358Z In(05) vmx Vix: [mainDispatch.c:740]: VMAutomationOpenListenerSocket() listening
+2024-05-13T18:05:36.364Z In(05) vmx Vix: [mainDispatch.c:4213]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1870, success=1 additionalError=0
+2024-05-13T18:05:36.364Z In(05) vmx Transitioned vmx/execState/val to poweredOff
+2024-05-13T18:05:36.364Z In(05) vmx Vix: [mainDispatch.c:4213]: VMAutomation_ReportPowerOpFinished: statevar=1, newAppState=1873, success=1 additionalError=0
+2024-05-13T18:05:36.365Z In(05) vmx Vix: [mainDispatch.c:4213]: VMAutomation_ReportPowerOpFinished: statevar=2, newAppState=1877, success=1 additionalError=0
+2024-05-13T18:05:36.365Z In(05) vmx Vix: [mainDispatch.c:4213]: VMAutomation_ReportPowerOpFinished: statevar=3, newAppState=1881, success=1 additionalError=0
+2024-05-13T18:05:36.365Z In(05) vmx IOPL_Init: Hyper-V detected by CPUID
+2024-05-13T18:05:36.368Z In(05) vmx IOCTL_VMX86_SET_MEMORY_PARAMS already set
+2024-05-13T18:05:36.368Z In(05) vmx FeatureCompat: No EVC masks.
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID vendor: GenuineIntel
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID family: 0x6 model: 0x8e stepping: 0x9
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID codename: Kaby Lake-U/Y QS
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID name: Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 00000000, 0: 0x00000016 0x756e6547 0x6c65746e 0x49656e69
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 00000001, 0: 0x000806e9 0x00100800 0xfffaf38f 0xbfebfbff
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 00000002, 0: 0x76036301 0x00f0b5ff 0x00000000 0x00c30000
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 00000003, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 00000004, 0: 0x1c004121 0x01c0003f 0x0000003f 0x00000000
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 00000004, 1: 0x1c004122 0x01c0003f 0x0000003f 0x00000000
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 00000004, 2: 0x1c004143 0x00c0003f 0x000003ff 0x00000000
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 00000004, 3: 0x1c03c163 0x02c0003f 0x00000fff 0x00000006
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 00000004, 4: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 00000005, 0: 0x00000040 0x00000040 0x00000003 0x00042120
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 00000006, 0: 0x000007f3 0x00000002 0x00000009 0x00000000
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 00000007, 0: 0x00000000 0x009c67a9 0x00000000 0xbc000400
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 00000008, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 00000009, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 0000000a, 0: 0x07300404 0x00000000 0x00000000 0x00000603
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 0000000b, 0: 0x00000001 0x00000002 0x00000100 0x00000000
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 0000000b, 1: 0x00000004 0x00000004 0x00000201 0x00000000
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 0000000b, 2: 0x00000000 0x00000000 0x00000002 0x00000000
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 0000000c, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 0000000d, 0: 0x0000001f 0x00000440 0x00000440 0x00000000
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 0000000d, 1: 0x0000000f 0x000003c0 0x00000000 0x00000000
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 0000000d, 2: 0x00000100 0x00000240 0x00000000 0x00000000
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 0000000d, 3: 0x00000040 0x000003c0 0x00000000 0x00000000
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 0000000d, 4: 0x00000040 0x00000400 0x00000000 0x00000000
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 0000000e, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 0000000f, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 0000000f, 1: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 00000010, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 00000010, 1: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 00000010, 2: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 00000010, 3: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 00000011, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 00000012, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 00000012, 1: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 00000012, 2: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 00000012, 3: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 00000013, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 00000014, 0: 0x00000001 0x0000000f 0x00000003 0x00000000
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 00000014, 1: 0x02490002 0x003f3fff 0x00000000 0x00000000
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 00000015, 0: 0x00000002 0x000000e2 0x00000000 0x00000000
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 00000016, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 40000000, 0: 0x4000000c 0x7263694d 0x666f736f 0x76482074
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 40000001, 0: 0x31237648 0x00000000 0x00000000 0x00000000
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 40000002, 0: 0x0000585d 0x000a0000 0x00000003 0x00000dc7
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 40000003, 0: 0x00003fff 0x002bb9ff 0x00000022 0x7dfefbf6
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 40000004, 0: 0x00060d1c 0x00000000 0x0000002e 0x00000000
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 40000005, 0: 0x00000400 0x00000400 0x000002e8 0x00000000
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 40000006, 0: 0x007200af 0x00000027 0x00000000 0x00000000
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 40000007, 0: 0x80000007 0x0000000b 0x00000000 0x00000000
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 40000008, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 40000009, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 4000000a, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 4000000b, 0: 0x001ff002 0x00000000 0x00000000 0x00000000
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 4000000c, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 80000000, 0: 0x80000008 0x00000000 0x00000000 0x00000000
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 80000001, 0: 0x00000000 0x00000000 0x00000121 0x2c100800
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 80000002, 0: 0x65746e49 0x2952286c 0x726f4320 0x4d542865
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 80000003, 0: 0x35692029 0x3032372d 0x43205530 0x40205550
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 80000004, 0: 0x352e3220 0x7a484730 0x00000000 0x00000000
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 80000005, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 80000006, 0: 0x00000000 0x00000000 0x01006040 0x00000000
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 80000007, 0: 0x00000000 0x00000000 0x00000000 0x00000100
+2024-05-13T18:05:36.375Z In(05) vmx hostCPUID level 80000008, 0: 0x00003027 0x00000000 0x00000000 0x00000000
+2024-05-13T18:05:36.375Z In(05) vmx CPUID differences from hostCPUID.
+2024-05-13T18:05:36.375Z In(05) vmx Physical APIC IDs: 0-3
+2024-05-13T18:05:36.375Z In(05) vmx Physical X2APIC IDs: 0-3
+2024-05-13T18:05:36.375Z In(05) vmx Common: MSR       0x3a =                  0
+2024-05-13T18:05:36.375Z In(05) vmx Common: MSR      0x480 =                  0
+2024-05-13T18:05:36.375Z In(05) vmx Common: MSR      0x481 =                  0
+2024-05-13T18:05:36.375Z In(05) vmx Common: MSR      0x482 =                  0
+2024-05-13T18:05:36.375Z In(05) vmx Common: MSR      0x483 =                  0
+2024-05-13T18:05:36.375Z In(05) vmx Common: MSR      0x484 =                  0
+2024-05-13T18:05:36.375Z In(05) vmx Common: MSR      0x485 =                  0
+2024-05-13T18:05:36.375Z In(05) vmx Common: MSR      0x486 =                  0
+2024-05-13T18:05:36.375Z In(05) vmx Common: MSR      0x487 =                  0
+2024-05-13T18:05:36.375Z In(05) vmx Common: MSR      0x488 =                  0
+2024-05-13T18:05:36.375Z In(05) vmx Common: MSR      0x489 =                  0
+2024-05-13T18:05:36.375Z In(05) vmx Common: MSR      0x48a =                  0
+2024-05-13T18:05:36.375Z In(05) vmx Common: MSR      0x48b =                  0
+2024-05-13T18:05:36.375Z In(05) vmx Common: MSR      0x48c =                  0
+2024-05-13T18:05:36.375Z In(05) vmx Common: MSR      0x48d =                  0
+2024-05-13T18:05:36.375Z In(05) vmx Common: MSR      0x48e =                  0
+2024-05-13T18:05:36.375Z In(05) vmx Common: MSR      0x48f =                  0
+2024-05-13T18:05:36.375Z In(05) vmx Common: MSR      0x490 =                  0
+2024-05-13T18:05:36.375Z In(05) vmx Common: MSR      0x491 =                  0
+2024-05-13T18:05:36.375Z In(05) vmx Common: MSR      0x492 =                  0
+2024-05-13T18:05:36.375Z In(05) vmx Common: MSR 0xc0010114 =                  0
+2024-05-13T18:05:36.375Z In(05) vmx Common: MSR       0xce =         0x80000000
+2024-05-13T18:05:36.375Z In(05) vmx Common: MSR      0x10a =                0x4
+2024-05-13T18:05:36.376Z In(05) vmx Common: MSR      0x122 =                  0
+2024-05-13T18:05:36.376Z In(05) vmx TSC Hz estimates: vmmon 0, remembered 0, osReported 0. Using 2711997494 Hz.
+2024-05-13T18:05:36.376Z In(05) vmx PTSC: RefClockToPTSC 0 @ 10000000Hz -> 0 @ 2711997494Hz
+2024-05-13T18:05:36.376Z In(05) vmx PTSC: RefClockToPTSC ((x * 2274988387) >> 23) + -87719797830819
+2024-05-13T18:05:36.376Z In(05) vmx PTSC: tscOffset 0
+2024-05-13T18:05:36.376Z In(05) vmx PTSC: using reference clock
+2024-05-13T18:05:36.376Z In(05) vmx PTSC: hardware TSCs are synchronized.
+2024-05-13T18:05:36.376Z In(05) vmx PTSC: hardware TSCs may have been adjusted by the host.
+2024-05-13T18:05:36.376Z In(05) vmx PTSC: current PTSC=159737
+2024-05-13T18:05:36.387Z In(05) vmx WQPoolAllocPoll : pollIx = 3, signalHandle = 956
+2024-05-13T18:05:36.449Z In(05) vmx ConfigCheck: No rules file found. Checks are disabled.
+2024-05-13T18:05:36.449Z In(05) vmx changing directory to C:\Users\mokrane\.vagrant.d\boxes\ubuntu-VAGRANTSLASH-trusty64\20190514.0.0\virtualbox\workshop\VM_BOUCLE_WORKTATION\.vagrant\machines\server1\vmware_workstation\6089d528-7f1d-4259-a515-f022ba8af0ce\.
+2024-05-13T18:05:36.449Z In(05) vmx Config file: C:\Users\mokrane\.vagrant.d\boxes\ubuntu-VAGRANTSLASH-trusty64\20190514.0.0\virtualbox\workshop\VM_BOUCLE_WORKTATION\.vagrant\machines\server1\vmware_workstation\6089d528-7f1d-4259-a515-f022ba8af0ce\generic-ubuntu2004-vmware.vmx
+2024-05-13T18:05:36.449Z In(05) vmx Vix: [mainDispatch.c:4213]: VMAutomation_ReportPowerOpFinished: statevar=1, newAppState=1873, success=1 additionalError=0
+2024-05-13T18:05:36.449Z In(05) vmx Vix: [mainDispatch.c:4213]: VMAutomation_ReportPowerOpFinished: statevar=2, newAppState=1878, success=1 additionalError=0
+2024-05-13T18:05:36.590Z In(05) vmx VMXVmdbCbVmVmxExecState: Exec state change requested to state poweredOn without reset, default, softOptionTimeout: 0.
+2024-05-13T18:05:36.590Z In(05) vmx Tools: sending 'OS_PowerOn' (state = 3) state change request
+2024-05-13T18:05:36.590Z In(05) vmx Tools: Delaying state change request to state 3.
+2024-05-13T18:05:36.590Z Wa(03) vmx PowerOn
+2024-05-13T18:05:36.590Z In(05) vmx VMX_PowerOn: VMX build 20800274, UI build 20800274
+2024-05-13T18:05:36.590Z In(05) vmx HostWin32: WIN32 NUMA node 0, CPU mask 0x000000000000000f
+2024-05-13T18:05:36.601Z In(05) vmx Vix: [mainDispatch.c:4213]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1871, success=1 additionalError=0
+2024-05-13T18:05:36.603Z In(05) vmx VMXSTATS: Successfully created statsfile: generic-ubuntu2004-vmware.scoreboard
+2024-05-13T18:05:36.603Z In(05) vmx VMXSTATS: Update Product Information: VMware Workstation	17.0.0	build-20800274	Release  TotalBlockSize: 64
+2024-05-13T18:05:36.603Z In(05) vmx HOST Windows version 10.0, build 22621, platform 2, ""
+2024-05-13T18:05:36.603Z In(05) vmx DICT --- GLOBAL SETTINGS C:\ProgramData\VMware\VMware Workstation\settings.ini
+2024-05-13T18:05:36.603Z In(05) vmx DICT          printers.enabled = "FALSE"
+2024-05-13T18:05:36.603Z In(05) vmx DICT --- NON PERSISTENT (null)
+2024-05-13T18:05:36.603Z In(05) vmx DICT --- USER PREFERENCES C:\Users\mokrane\AppData\Roaming\VMware\preferences.ini
+2024-05-13T18:05:36.603Z In(05) vmx DICT pref.updatesVersionIgnore.numItems = "3"
+2024-05-13T18:05:36.603Z In(05) vmx DICT pref.updatesVersionIgnore0.key = <not printed>
+2024-05-13T18:05:36.603Z In(05) vmx DICT pref.updatesVersionIgnore0.value = "1c0ed2c7-02ef-48b5-b597-3d15ece7f54e"
+2024-05-13T18:05:36.603Z In(05) vmx DICT   pref.lastUpdateCheckSec = "1715607661"
+2024-05-13T18:05:36.603Z In(05) vmx DICT pref.keyboardAndMouse.vmHotKey.enabled = "FALSE"
+2024-05-13T18:05:36.603Z In(05) vmx DICT pref.keyboardAndMouse.vmHotKey.count = "0"
+2024-05-13T18:05:36.603Z In(05) vmx DICT pref.ws.session.window.count = "1"
+2024-05-13T18:05:36.603Z In(05) vmx DICT pref.ws.session.window0.tab.count = "0"
+2024-05-13T18:05:36.604Z In(05) vmx DICT pref.ws.session.window0.tab0.cnxType = "vmdb"
+2024-05-13T18:05:36.604Z In(05) vmx DICT pref.ws.session.window0.sidebar = "TRUE"
+2024-05-13T18:05:36.604Z In(05) vmx DICT pref.ws.session.window0.sidebar.width = "250"
+2024-05-13T18:05:36.604Z In(05) vmx DICT pref.ws.session.window0.statusBar = "TRUE"
+2024-05-13T18:05:36.604Z In(05) vmx DICT pref.ws.session.window0.tabs = "TRUE"
+2024-05-13T18:05:36.604Z In(05) vmx DICT pref.ws.session.window0.thumbnailBar = "FALSE"
+2024-05-13T18:05:36.604Z In(05) vmx DICT pref.ws.session.window0.thumbnailBar.size = "125"
+2024-05-13T18:05:36.604Z In(05) vmx DICT pref.ws.session.window0.thumbnailBar.view = "opened-vms"
+2024-05-13T18:05:36.604Z In(05) vmx DICT pref.ws.session.window0.placement.left = "0"
+2024-05-13T18:05:36.604Z In(05) vmx DICT pref.ws.session.window0.placement.top = "9"
+2024-05-13T18:05:36.604Z In(05) vmx DICT pref.ws.session.window0.placement.right = "1210"
+2024-05-13T18:05:36.604Z In(05) vmx DICT pref.ws.session.window0.placement.bottom = "1029"
+2024-05-13T18:05:36.604Z In(05) vmx DICT pref.ws.session.window0.maximized = "TRUE"
+2024-05-13T18:05:36.604Z In(05) vmx DICT         vmWizard.guestKey = "ubuntu-64"
+2024-05-13T18:05:36.604Z In(05) vmx DICT vmWizard.installMediaType = "iso"
+2024-05-13T18:05:36.604Z In(05) vmx DICT             hints.hideAll = "FALSE"
+2024-05-13T18:05:36.604Z In(05) vmx DICT pref.ws.session.window0.tab1.cnxType = "vmdb"
+2024-05-13T18:05:36.604Z In(05) vmx DICT pref.updatesVersionIgnore1.key = <not printed>
+2024-05-13T18:05:36.604Z In(05) vmx DICT pref.updatesVersionIgnore1.value = "424c449b-b863-4e9e-b232-c97afcd13923"
+2024-05-13T18:05:36.604Z In(05) vmx DICT vmWizard.isoLocationMRU.count = "3"
+2024-05-13T18:05:36.604Z In(05) vmx DICT vmWizard.isoLocationMRU0.location = "C:\Users\mokrane\Desktop\GRETTA Kubernetes\ubuntu-22.04.3-desktop-amd64.iso"
+2024-05-13T18:05:36.604Z In(05) vmx DICT pref.ws.session.window0.tab2.cnxType = "vmdb"
+2024-05-13T18:05:36.604Z In(05) vmx DICT pref.ws.session.window0.tab3.cnxType = "vmdb"
+2024-05-13T18:05:36.604Z In(05) vmx DICT hint.loader.mitigations.wsAndFusion = "FALSE"
+2024-05-13T18:05:36.604Z In(05) vmx DICT  hint.vmui.showNewUSBDevs = "FALSE"
+2024-05-13T18:05:36.604Z In(05) vmx DICT vmWizard.isoLocationMRU1.location = "C:\Users\mokrane\Downloads\ubuntu-22.04.3-live-server-amd64.iso"
+2024-05-13T18:05:36.604Z In(05) vmx DICT pref.ws.session.window0.tab4.cnxType = "vmdb"
+2024-05-13T18:05:36.604Z In(05) vmx DICT pref.ws.session.window0.tab5.cnxType = "vmdb"
+2024-05-13T18:05:36.604Z In(05) vmx DICT vmWizard.isoLocationMRU2.location = "C:\Users\mokrane\Desktop\GRETA DevOps\debian-11.6.0-amd64-netinst.iso"
+2024-05-13T18:05:36.604Z In(05) vmx DICT pref.updatesVersionIgnore2.key = <not printed>
+2024-05-13T18:05:36.604Z In(05) vmx DICT pref.updatesVersionIgnore2.value = "6445c082-fad2-40d7-a85f-4db24d69fee2"
+2024-05-13T18:05:36.604Z In(05) vmx DICT     prefvmx.defaultVMPath = "F:\"
+2024-05-13T18:05:36.604Z In(05) vmx DICT pref.defaultVirtualHW.productCompatibility = "esx"
+2024-05-13T18:05:36.604Z In(05) vmx DICT --- USER DEFAULTS C:\Users\mokrane\AppData\Roaming\VMware\config.ini
+2024-05-13T18:05:36.604Z In(05) vmx DICT --- HOST DEFAULTS C:\ProgramData\VMware\VMware Workstation\config.ini
+2024-05-13T18:05:36.604Z In(05) vmx DICT         authd.client.port = "902"
+2024-05-13T18:05:36.604Z In(05) vmx DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2024-05-13T18:05:36.604Z In(05) vmx DICT installerDefaults.autoSoftwareUpdateEnabled = "yes"
+2024-05-13T18:05:36.604Z In(05) vmx DICT installerDefaults.autoSoftwareUpdateEnabled.epoch = "10556"
+2024-05-13T18:05:36.604Z In(05) vmx DICT installerDefaults.componentDownloadEnabled = "yes"
+2024-05-13T18:05:36.604Z In(05) vmx DICT installerDefaults.dataCollectionEnabled = "yes"
+2024-05-13T18:05:36.604Z In(05) vmx DICT installerDefaults.dataCollectionEnabled.epoch = "10556"
+2024-05-13T18:05:36.604Z In(05) vmx DICT --- SITE DEFAULTS C:\ProgramData\VMware\VMware Workstation\config.ini
+2024-05-13T18:05:36.604Z In(05) vmx DICT         authd.client.port = "902"
+2024-05-13T18:05:36.604Z In(05) vmx DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2024-05-13T18:05:36.604Z In(05) vmx DICT installerDefaults.autoSoftwareUpdateEnabled = "yes"
+2024-05-13T18:05:36.604Z In(05) vmx DICT installerDefaults.autoSoftwareUpdateEnabled.epoch = "10556"
+2024-05-13T18:05:36.604Z In(05) vmx DICT installerDefaults.componentDownloadEnabled = "yes"
+2024-05-13T18:05:36.604Z In(05) vmx DICT installerDefaults.dataCollectionEnabled = "yes"
+2024-05-13T18:05:36.604Z In(05) vmx DICT installerDefaults.dataCollectionEnabled.epoch = "10556"
+2024-05-13T18:05:36.604Z In(05) vmx DICT --- NONPERSISTENT
+2024-05-13T18:05:36.604Z In(05) vmx DICT  vmx.noUIBuildNumberCheck = "TRUE"
+2024-05-13T18:05:36.604Z In(05) vmx DICT             gui.available = "TRUE"
+2024-05-13T18:05:36.604Z In(05) vmx DICT --- COMMAND LINE
+2024-05-13T18:05:36.604Z In(05) vmx DICT  vmx.noUIBuildNumberCheck = "TRUE"
+2024-05-13T18:05:36.604Z In(05) vmx DICT             gui.available = "TRUE"
+2024-05-13T18:05:36.604Z In(05) vmx DICT --- RECORDING
+2024-05-13T18:05:36.604Z In(05) vmx DICT  vmx.noUIBuildNumberCheck = "TRUE"
+2024-05-13T18:05:36.604Z In(05) vmx DICT             gui.available = "TRUE"
+2024-05-13T18:05:36.604Z In(05) vmx DICT --- CONFIGURATION C:\Users\mokrane\.vagrant.d\boxes\ubuntu-VAGRANTSLASH-trusty64\20190514.0.0\virtualbox\workshop\VM_BOUCLE_WORKTATION\.vagrant\machines\server1\vmware_workstation\6089d528-7f1d-4259-a515-f022ba8af0ce\generic-ubuntu2004-vmware.vmx 
+2024-05-13T18:05:36.604Z In(05) vmx DICT            bios.bootorder = "hdd,cdrom"
+2024-05-13T18:05:36.604Z In(05) vmx DICT        checkpoint.vmstate = ""
+2024-05-13T18:05:36.604Z In(05) vmx DICT             cleanshutdown = "TRUE"
+2024-05-13T18:05:36.604Z In(05) vmx DICT            config.version = "8"
+2024-05-13T18:05:36.604Z In(05) vmx DICT      cpuid.corespersocket = "1"
+2024-05-13T18:05:36.604Z In(05) vmx DICT               displayname = "VM_BOUCLE_WORKTATION: server1"
+2024-05-13T18:05:36.604Z In(05) vmx DICT        ehci.pcislotnumber = "-1"
+2024-05-13T18:05:36.604Z In(05) vmx DICT              ehci.present = "FALSE"
+2024-05-13T18:05:36.604Z In(05) vmx DICT     ethernet0.addresstype = "generated"
+2024-05-13T18:05:36.604Z In(05) vmx DICT  ethernet0.connectiontype = "nat"
+2024-05-13T18:05:36.604Z In(05) vmx DICT         ethernet0.present = "TRUE"
+2024-05-13T18:05:36.604Z In(05) vmx DICT      ethernet0.virtualdev = "e1000e"
+2024-05-13T18:05:36.604Z In(05) vmx DICT        extendedconfigfile = "generic-ubuntu2004-vmware.vmxf"
+2024-05-13T18:05:36.604Z In(05) vmx DICT            filesearchpath = ".;C:\Users\mokrane\.vagrant.d\boxes\generic-VAGRANTSLASH-ubuntu2004\4.3.2\vmware_desktop"
+2024-05-13T18:05:36.604Z In(05) vmx DICT           floppy0.present = "FALSE"
+2024-05-13T18:05:36.604Z In(05) vmx DICT   guestinfo.detailed.data = <not printed>
+2024-05-13T18:05:36.604Z In(05) vmx DICT                   guestos = "ubuntu-64"
+2024-05-13T18:05:36.604Z In(05) vmx DICT   gui.fullscreenatpoweron = "FALSE"
+2024-05-13T18:05:36.604Z In(05) vmx DICT     gui.viewmodeatpoweron = "windowed"
+2024-05-13T18:05:36.604Z In(05) vmx DICT        hgfs.linkrootshare = "TRUE"
+2024-05-13T18:05:36.604Z In(05) vmx DICT         hgfs.maprootshare = "TRUE"
+2024-05-13T18:05:36.604Z In(05) vmx DICT             hpet0.present = "TRUE"
+2024-05-13T18:05:36.604Z In(05) vmx DICT       ide0:0.clientdevice = "TRUE"
+2024-05-13T18:05:36.604Z In(05) vmx DICT         ide0:0.devicetype = "cdrom-raw"
+2024-05-13T18:05:36.604Z In(05) vmx DICT           ide0:0.filename = "auto detect"
+2024-05-13T18:05:36.604Z In(05) vmx DICT            ide0:0.present = "TRUE"
+2024-05-13T18:05:36.604Z In(05) vmx DICT isolation.tools.hgfs.disable = "FALSE"
+2024-05-13T18:05:36.604Z In(05) vmx DICT                   memsize = "1024"
+2024-05-13T18:05:36.604Z In(05) vmx DICT    monitor.phys_bits_used = "42"
+2024-05-13T18:05:36.604Z In(05) vmx DICT            msg.autoanswer = "true"
+2024-05-13T18:05:36.604Z In(05) vmx DICT      numa.autosize.cookie = "10001"
+2024-05-13T18:05:36.604Z In(05) vmx DICT numa.autosize.vcpu.maxpervirtualnode = "1"
+2024-05-13T18:05:36.604Z In(05) vmx DICT                  numvcpus = "1"
+2024-05-13T18:05:36.604Z In(05) vmx DICT             nvme0.present = "FALSE"
+2024-05-13T18:05:36.604Z In(05) vmx DICT                     nvram = "generic-ubuntu2004-vmware.nvram"
+2024-05-13T18:05:36.605Z In(05) vmx DICT      parallel0.autodetect = "FALSE"
+2024-05-13T18:05:36.605Z In(05) vmx DICT   parallel0.bidirectional = ""
+2024-05-13T18:05:36.605Z In(05) vmx DICT        parallel0.filename = ""
+2024-05-13T18:05:36.605Z In(05) vmx DICT         parallel0.present = "FALSE"
+2024-05-13T18:05:36.605Z In(05) vmx DICT  parallel0.startconnected = "FALSE"
+2024-05-13T18:05:36.605Z In(05) vmx DICT  pcibridge0.pcislotnumber = "17"
+2024-05-13T18:05:36.605Z In(05) vmx DICT        pcibridge0.present = "TRUE"
+2024-05-13T18:05:36.605Z In(05) vmx DICT      pcibridge4.functions = "8"
+2024-05-13T18:05:36.605Z In(05) vmx DICT  pcibridge4.pcislotnumber = "21"
+2024-05-13T18:05:36.605Z In(05) vmx DICT        pcibridge4.present = "TRUE"
+2024-05-13T18:05:36.605Z In(05) vmx DICT     pcibridge4.virtualdev = "pcieRootPort"
+2024-05-13T18:05:36.605Z In(05) vmx DICT      pcibridge5.functions = "8"
+2024-05-13T18:05:36.605Z In(05) vmx DICT  pcibridge5.pcislotnumber = "22"
+2024-05-13T18:05:36.605Z In(05) vmx DICT        pcibridge5.present = "TRUE"
+2024-05-13T18:05:36.605Z In(05) vmx DICT     pcibridge5.virtualdev = "pcieRootPort"
+2024-05-13T18:05:36.605Z In(05) vmx DICT      pcibridge6.functions = "8"
+2024-05-13T18:05:36.605Z In(05) vmx DICT  pcibridge6.pcislotnumber = "23"
+2024-05-13T18:05:36.605Z In(05) vmx DICT        pcibridge6.present = "TRUE"
+2024-05-13T18:05:36.605Z In(05) vmx DICT     pcibridge6.virtualdev = "pcieRootPort"
+2024-05-13T18:05:36.605Z In(05) vmx DICT      pcibridge7.functions = "8"
+2024-05-13T18:05:36.605Z In(05) vmx DICT  pcibridge7.pcislotnumber = "24"
+2024-05-13T18:05:36.605Z In(05) vmx DICT        pcibridge7.present = "TRUE"
+2024-05-13T18:05:36.605Z In(05) vmx DICT     pcibridge7.virtualdev = "pcieRootPort"
+2024-05-13T18:05:36.605Z In(05) vmx DICT          policy.vm.mvmtid = ""
+2024-05-13T18:05:36.605Z In(05) vmx DICT        powertype.poweroff = "soft"
+2024-05-13T18:05:36.605Z In(05) vmx DICT         powertype.poweron = "soft"
+2024-05-13T18:05:36.605Z In(05) vmx DICT           powertype.reset = "soft"
+2024-05-13T18:05:36.605Z In(05) vmx DICT         powertype.suspend = "soft"
+2024-05-13T18:05:36.605Z In(05) vmx DICT   proxyapps.publishtohost = "FALSE"
+2024-05-13T18:05:36.605Z In(05) vmx DICT remotedisplay.vnc.enabled = "FALSE"
+2024-05-13T18:05:36.605Z In(05) vmx DICT      remotedisplay.vnc.ip = "127.0.0.1"
+2024-05-13T18:05:36.605Z In(05) vmx DICT    remotedisplay.vnc.port = "5903"
+2024-05-13T18:05:36.605Z In(05) vmx DICT           replay.filename = ""
+2024-05-13T18:05:36.605Z In(05) vmx DICT          replay.supported = "FALSE"
+2024-05-13T18:05:36.605Z In(05) vmx DICT             sata0.present = "FALSE"
+2024-05-13T18:05:36.605Z In(05) vmx DICT       scsi0.pcislotnumber = "16"
+2024-05-13T18:05:36.605Z In(05) vmx DICT             scsi0.present = "TRUE"
+2024-05-13T18:05:36.605Z In(05) vmx DICT          scsi0.virtualdev = "lsilogic"
+2024-05-13T18:05:36.605Z In(05) vmx DICT          scsi0:0.filename = "generic-ubuntu2004-vmware-cl1.vmdk"
+2024-05-13T18:05:36.605Z In(05) vmx DICT           scsi0:0.present = "TRUE"
+2024-05-13T18:05:36.605Z In(05) vmx DICT              scsi0:0.redo = ""
+2024-05-13T18:05:36.605Z In(05) vmx DICT        serial0.autodetect = "FALSE"
+2024-05-13T18:05:36.605Z In(05) vmx DICT          serial0.filename = ""
+2024-05-13T18:05:36.605Z In(05) vmx DICT          serial0.filetype = ""
+2024-05-13T18:05:36.606Z In(05) vmx DICT     serial0.pipe.endpoint = ""
+2024-05-13T18:05:36.606Z In(05) vmx DICT           serial0.present = "FALSE"
+2024-05-13T18:05:36.606Z In(05) vmx DICT    serial0.startconnected = "FALSE"
+2024-05-13T18:05:36.606Z In(05) vmx DICT       serial0.trynorxloss = ""
+2024-05-13T18:05:36.606Z In(05) vmx DICT    serial0.yieldonmsrread = ""
+2024-05-13T18:05:36.606Z In(05) vmx DICT              softpoweroff = "FALSE"
+2024-05-13T18:05:36.606Z In(05) vmx DICT          sound.autodetect = "TRUE"
+2024-05-13T18:05:36.606Z In(05) vmx DICT            sound.filename = "-1"
+2024-05-13T18:05:36.606Z In(05) vmx DICT             sound.present = "FALSE"
+2024-05-13T18:05:36.606Z In(05) vmx DICT      sound.startconnected = "FALSE"
+2024-05-13T18:05:36.606Z In(05) vmx DICT svga.guestbackedprimaryaware = "TRUE"
+2024-05-13T18:05:36.606Z In(05) vmx DICT             svga.vramsize = "134217728"
+2024-05-13T18:05:36.606Z In(05) vmx DICT            tools.synctime = "TRUE"
+2024-05-13T18:05:36.606Z In(05) vmx DICT      tools.upgrade.policy = "upgradeAtPowerCycle"
+2024-05-13T18:05:36.606Z In(05) vmx DICT toolsinstallmanager.updatecounter = "1"
+2024-05-13T18:05:36.606Z In(05) vmx DICT         usb.pcislotnumber = "-1"
+2024-05-13T18:05:36.606Z In(05) vmx DICT               usb.present = "FALSE"
+2024-05-13T18:05:36.606Z In(05) vmx DICT               uuid.action = "create"
+2024-05-13T18:05:36.606Z In(05) vmx DICT                 uuid.bios = "56 4d fd 4b fa fd 54 2d-7a ca 27 5d 03 33 e0 ab"
+2024-05-13T18:05:36.606Z In(05) vmx DICT             uuid.location = "56 4d fd 4b fa fd 54 2d-7a ca 27 5d 03 33 e0 ab"
+2024-05-13T18:05:36.606Z In(05) vmx DICT                   vc.uuid = ""
+2024-05-13T18:05:36.606Z In(05) vmx DICT virtualhw.productcompatibility = "hosted"
+2024-05-13T18:05:36.606Z In(05) vmx DICT         virtualhw.version = "12"
+2024-05-13T18:05:36.606Z In(05) vmx DICT                  vmci0.id = "1861462628"
+2024-05-13T18:05:36.606Z In(05) vmx DICT       vmci0.pcislotnumber = "35"
+2024-05-13T18:05:36.606Z In(05) vmx DICT             vmci0.present = "TRUE"
+2024-05-13T18:05:36.606Z In(05) vmx DICT  vmotion.checkpointfbsize = "134217728"
+2024-05-13T18:05:36.606Z In(05) vmx DICT vmotion.checkpointsvgaprimarysize = "134217728"
+2024-05-13T18:05:36.606Z In(05) vmx DICT         vmxstats.filename = "generic-ubuntu2004-vmware.scoreboard"
+2024-05-13T18:05:36.606Z In(05) vmx DICT   ethernet0.pciSlotNumber = "160"
+2024-05-13T18:05:36.606Z In(05) vmx DICT --- USER DEFAULTS C:\Users\mokrane\AppData\Roaming\VMware\config.ini 
+2024-05-13T18:05:36.606Z In(05) vmx DICT --- HOST DEFAULTS C:\ProgramData\VMware\VMware Workstation\config.ini 
+2024-05-13T18:05:36.606Z In(05) vmx DICT         authd.client.port = "902"
+2024-05-13T18:05:36.606Z In(05) vmx DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2024-05-13T18:05:36.606Z In(05) vmx DICT installerDefaults.autoSoftwareUpdateEnabled = "yes"
+2024-05-13T18:05:36.606Z In(05) vmx DICT installerDefaults.autoSoftwareUpdateEnabled.epoch = "10556"
+2024-05-13T18:05:36.606Z In(05) vmx DICT installerDefaults.componentDownloadEnabled = "yes"
+2024-05-13T18:05:36.606Z In(05) vmx DICT installerDefaults.dataCollectionEnabled = "yes"
+2024-05-13T18:05:36.606Z In(05) vmx DICT installerDefaults.dataCollectionEnabled.epoch = "10556"
+2024-05-13T18:05:36.606Z In(05) vmx DICT --- SITE DEFAULTS C:\ProgramData\VMware\VMware Workstation\config.ini 
+2024-05-13T18:05:36.606Z In(05) vmx DICT         authd.client.port = "902"
+2024-05-13T18:05:36.606Z In(05) vmx DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2024-05-13T18:05:36.607Z In(05) vmx DICT installerDefaults.autoSoftwareUpdateEnabled = "yes"
+2024-05-13T18:05:36.607Z In(05) vmx DICT installerDefaults.autoSoftwareUpdateEnabled.epoch = "10556"
+2024-05-13T18:05:36.607Z In(05) vmx DICT installerDefaults.componentDownloadEnabled = "yes"
+2024-05-13T18:05:36.607Z In(05) vmx DICT installerDefaults.dataCollectionEnabled = "yes"
+2024-05-13T18:05:36.607Z In(05) vmx DICT installerDefaults.dataCollectionEnabled.epoch = "10556"
+2024-05-13T18:05:36.607Z In(05) vmx DICT --- GLOBAL SETTINGS C:\ProgramData\VMware\VMware Workstation\settings.ini 
+2024-05-13T18:05:36.607Z In(05) vmx DICT          printers.enabled = "FALSE"
+2024-05-13T18:05:36.607Z In(05) vmx Powering on guestOS 'ubuntu-64' using the configuration for 'ubuntu-64'.
+2024-05-13T18:05:36.608Z In(05) vmx ToolsISO: open of C:\Program Files (x86)\VMware\VMware Workstation\isoimages_manifest.txt.sig failed: Could not find the file
+2024-05-13T18:05:36.608Z In(05) vmx ToolsISO: Unable to read signature file 'C:\Program Files (x86)\VMware\VMware Workstation\isoimages_manifest.txt.sig', ignoring.
+2024-05-13T18:05:36.609Z In(05) vmx ToolsISO: Updated cached value for imageName to 'linux.iso'.
+2024-05-13T18:05:36.610Z In(05) vmx ToolsISO: Selected Tools ISO 'linux.iso' for 'ubuntu-64' guest.
+2024-05-13T18:05:36.610Z In(05) vmx Vix: [mainDispatch.c:4213]: VMAutomation_ReportPowerOpFinished: statevar=1, newAppState=1873, success=1 additionalError=0
+2024-05-13T18:05:36.611Z In(05) vmx DEVSWAP: GuestOS does not require LSI adapter swap.
+2024-05-13T18:05:36.614Z In(05) vmx Monitor Mode: ULM
+2024-05-13T18:05:36.614Z In(05) vmx MsgHint: msg.loader.mitigations.wsAndFusion
+2024-05-13T18:05:36.614Z In(05)+ vmx You are running this virtual machine with side channel mitigations enabled. Side channel mitigations provide enhanced security but also lower performance.
+2024-05-13T18:05:36.614Z In(05)+ vmx 
+2024-05-13T18:05:36.614Z In(05)+ vmx To disable mitigations, change the side channel mitigations setting in the advanced panel of the virtual machine settings. Refer to VMware KB article 79832 at https://kb.vmware.com/s/article/79832 for more details.
+2024-05-13T18:05:36.614Z In(05)+ vmx ---------------------------------------
+2024-05-13T18:05:36.614Z In(05) vmx MsgIsAnswered: Using builtin default 'OK' as the answer for 'msg.loader.mitigations.wsAndFusion'
+2024-05-13T18:05:36.627Z In(05) vmx MemSched_EarlyPowerOn: balloon minGuestSize 52428 (80% of min required size 65536)
+2024-05-13T18:05:36.627Z In(05) vmx OvhdMem_PowerOn: initial admission: paged   406190 nonpaged     4941 anonymous     4825
+2024-05-13T18:05:36.627Z In(05) vmx VMMEM: Initial Reservation: 1624MB (MainMem=1024MB)
+2024-05-13T18:05:36.627Z In(05) vmx llc: maximum vcpus per LLC: 1
+2024-05-13T18:05:36.627Z In(05) vmx llc: vLLC size: 1
+2024-05-13T18:05:36.630Z In(05) vmx MemSched: reserved mem (in MB) min 128 max 9915 recommended 9915
+2024-05-13T18:05:36.630Z In(05) vmx MemSched: pg 406190 np 4941 anon 4825 mem 262144
+2024-05-13T18:05:36.661Z In(05) vmx MemSched: numvm 1 locked pages: num 0 max 2530048
+2024-05-13T18:05:36.661Z In(05) vmx MemSched: locked Page Limit: host 2672086 config 2538240
+2024-05-13T18:05:36.661Z In(05) vmx MemSched: minmempct 50 minalloc 0 admitted 1
+2024-05-13T18:05:36.662Z In(05) PowerNotifyThread VTHREAD 8108 "PowerNotifyThread"
+2024-05-13T18:05:36.662Z In(05) PowerNotifyThread PowerNotify thread is alive.
+2024-05-13T18:05:36.662Z In(05) vmx VMXSTATS: Registering 1 stats: vmx.logDropChars
+2024-05-13T18:05:36.662Z In(05) vmx VMXSTATS: Registering 2 stats: vmx.logBytesLogged
+2024-05-13T18:05:36.662Z In(05) vmx VMXSTATS: Registering 3 stats: vmx.numTimesLogDrop
+2024-05-13T18:05:36.664Z In(05) vmx LICENSE using: 'HKEY_LOCAL_MACHINE\SOFTWARE\VMware, Inc.\VMware Workstation\Dormant\License.ws.17.0.e5.202208' 
+2024-05-13T18:05:36.664Z In(05) vthread-10512 VTHREAD 10512 "vthread-10512"
+2024-05-13T18:05:36.666Z In(05) vmx Win32U_GetFileAttributes: GetFileAttributesExW("C:\Users\mokrane\.vagrant.d\boxes\ubuntu-VAGRANTSLASH-trusty64\20190514.0.0\virtualbox\workshop\VM_BOUCLE_WORKTATION\.vagrant\machines\server1\vmware_workstation\6089d528-7f1d-4259-a515-f022ba8af0ce\generic-ubuntu2004-vmware.vmpl", ...) failed, error: 2
+2024-05-13T18:05:36.666Z In(05) vmx PolicyVMXFindPolicyKey: policy file does not exist.
+2024-05-13T18:05:36.667Z In(05) vmx Win32U_GetFileAttributes: GetFileAttributesExW("C:\Users\mokrane\.vagrant.d\boxes\ubuntu-VAGRANTSLASH-trusty64\20190514.0.0\virtualbox\workshop\VM_BOUCLE_WORKTATION\.vagrant\machines\server1\vmware_workstation\6089d528-7f1d-4259-a515-f022ba8af0ce\generic-ubuntu2004-vmware.vmpl", ...) failed, error: 2
+2024-05-13T18:05:36.668Z In(05) vmx PolicyVMXFindPolicyKey: policy file does not exist.
+2024-05-13T18:05:36.668Z In(05) vmx Host PA size: 39 bits. Guest PA size: 42 bits.
+2024-05-13T18:05:36.669Z In(05) vmx ToolsISO: Refreshing imageName for 'ubuntu-64' (refreshCount=1, lastCount=1).
+2024-05-13T18:05:36.669Z In(05) vmx ToolsISO: open of C:\Program Files (x86)\VMware\VMware Workstation\isoimages_manifest.txt.sig failed: Could not find the file
+2024-05-13T18:05:36.669Z In(05) vmx ToolsISO: Unable to read signature file 'C:\Program Files (x86)\VMware\VMware Workstation\isoimages_manifest.txt.sig', ignoring.
+2024-05-13T18:05:36.670Z In(05) vmx ToolsISO: Updated cached value for imageName to 'linux.iso'.
+2024-05-13T18:05:36.670Z In(05) vmx ToolsISO: Selected Tools ISO 'linux.iso' for 'ubuntu-64' guest.
+2024-05-13T18:05:36.671Z In(05) deviceThread VTHREAD 9784 "deviceThread"
+2024-05-13T18:05:36.671Z In(05) deviceThread Device thread is alive
+2024-05-13T18:05:36.671Z In(05) vmx KHZEstimate 2711997
+2024-05-13T18:05:36.671Z In(05) vmx MHZEstimate 2712
+2024-05-13T18:05:36.671Z In(05) vmx NumVCPUs 1
+2024-05-13T18:05:36.674Z In(05) vmx AIOGNRC: numThreads=18 ide=0, scsi=1, passthru=1
+2024-05-13T18:05:36.674Z In(05) vmx WORKER: Creating new group with maxThreads=18 (18)
+2024-05-13T18:05:36.675Z In(05) vmx WORKER: Creating new group with maxThreads=1 (19)
+2024-05-13T18:05:36.675Z In(05) vmx MainMem: CPT Host WZ=0 PF=1024 D=0
+2024-05-13T18:05:36.675Z In(05) vmx MainMem: CPT PLS=1 PLR=1 BS=1 BlkP=32 Mult=4 W=50
+2024-05-13T18:05:36.676Z Wa(03) vmx FILE: FileLockCreateEntryDirectory creation failure on 'C:\Users\mokrane\.vagrant.d\boxes\ubuntu-VAGRANTSLASH-trusty64\20190514.0.0\virtualbox\workshop\VM_BOUCLE_WORKTATION\.vagrant\machines\server1\vmware_workstation\6089d528-7f1d-4259-a515-f022ba8af0ce\564dfd4b-fafd-542d-7aca-275d0333e0ab.vmem.lck\D28569.lck': Unknown error 38 (0x26)
+2024-05-13T18:05:36.676Z In(05) vmx MainMem: Lock on page file 'C:\Users\mokrane\.vagrant.d\boxes\ubuntu-VAGRANTSLASH-trusty64\20190514.0.0\virtualbox\workshop\VM_BOUCLE_WORKTATION\.vagrant\machines\server1\vmware_workstation\6089d528-7f1d-4259-a515-f022ba8af0ce\564dfd4b-fafd-542d-7aca-275d0333e0ab.vmem' failed, 'Filename too long' (38).
+2024-05-13T18:05:36.676Z In(05) vmx MainMem: Opened paging file, 'UNNAMED'.
+2024-05-13T18:05:36.677Z In(05) vmx MStat: Creating Stat vm.uptime
+2024-05-13T18:05:36.677Z In(05) vmx MStat: Creating Stat vm.suspendTime
+2024-05-13T18:05:36.677Z In(05) vmx MStat: Creating Stat vm.powerOnTimeStamp
+2024-05-13T18:05:36.677Z In(05) aioCompletion VTHREAD 6364 "aioCompletion"
+2024-05-13T18:05:36.678Z In(05) vmx VMXAIOMGR: Using: simple=Compl
+2024-05-13T18:05:36.684Z In(05) vmx WORKER: Creating new group with maxThreads=1 (20)
+2024-05-13T18:05:36.691Z In(05) vmx WORKER: Creating new group with maxThreads=14 (34)
+2024-05-13T18:05:36.693Z In(05) vmx FeatureCompat: No VM masks.
+2024-05-13T18:05:36.693Z In(05) vmx TimeTracker host to guest rate conversion 861444308 @ 2711997494Hz -> 0 @ 2711997494Hz
+2024-05-13T18:05:36.693Z In(05) vmx TimeTracker host to guest rate conversion ((x * 2147483648) >> 31) + -861444308
+2024-05-13T18:05:36.693Z In(05) vmx Disabling TSC scaling since host does not support it.
+2024-05-13T18:05:36.693Z In(05) vmx TSC offsetting enabled.
+2024-05-13T18:05:36.693Z In(05) vmx timeTracker.globalProgressMaxAllowanceMS: 2000
+2024-05-13T18:05:36.693Z In(05) vmx timeTracker.globalProgressToAllowanceNS: 1000
+2024-05-13T18:05:36.694Z In(05) vmx MKS PowerOn
+2024-05-13T18:05:36.699Z In(05) mks VTHREAD 19408 "mks"
+2024-05-13T18:05:36.699Z In(05) mks MKS thread is alive
+2024-05-13T18:05:36.699Z In(05) svga VTHREAD 584 "svga"
+2024-05-13T18:05:36.699Z In(05) svga SVGA thread is alive
+2024-05-13T18:05:36.700Z In(05) mks MKS: SSE2=1, SSSE3=1, SSE4_1=1
+2024-05-13T18:05:36.705Z In(05) mouse VTHREAD 18624 "mouse"
+2024-05-13T18:05:36.705Z In(05) mks MKS-HookKeyboard: RegQueryValueEx(LowLevelHooksTimeout) failed: Unknown error 2 (0x2) (2)
+2024-05-13T18:05:36.705Z In(05) kbh VTHREAD 18748 "kbh"
+2024-05-13T18:05:36.711Z In(05) mks MKS Win32: Registering top level window (0x180e4a) to receive session change notification.
+2024-05-13T18:05:36.712Z In(05) mks Current Display Settings:
+2024-05-13T18:05:36.712Z In(05) mks    Display: 0 size: 1920x1080  position: (0, 0) name: \\.\DISPLAY1  
+2024-05-13T18:05:36.713Z In(05) mks MKS Win32: MIL: 0x4000
+2024-05-13T18:05:36.713Z In(05) mks MKS-RenderMain: PowerOn allowed MKSBasicOps 
+2024-05-13T18:05:36.713Z In(05) mks MKS-RenderMain: ISB enabled by config
+2024-05-13T18:05:36.713Z In(05) mks MKS-RenderMain: Collecting RenderOps caps from MKSBasicOps
+2024-05-13T18:05:36.713Z In(05) mks MKS-RenderMain: Starting MKSBasicOps
+2024-05-13T18:05:36.713Z In(05) mks MKS-RenderMain: Started MKSBasicOps
+2024-05-13T18:05:36.713Z In(05) mks MKS-RenderMain: Found Full Renderer: MKSBasicOps
+2024-05-13T18:05:36.713Z In(05) mks MKS-RenderMain: maxTextureSize=32768
+2024-05-13T18:05:36.714Z In(05) mks KHBKL: Unable to parse keystring at: ''
+2024-05-13T18:05:36.714Z In(05) mks MKSRemoteMgr: Set default display name: VM_BOUCLE_WORKTATION: server1
+2024-05-13T18:05:36.714Z In(05) mks MKSRemoteMgr: Loading VNC Configuration from VM config file
+2024-05-13T18:05:36.714Z In(05) mks MKSRemoteMgr: Using default VNC keymap table "us"
+2024-05-13T18:05:36.714Z In(05) vmx VLANCE: send cluster threshold is 80, size = 2 recalcInterval is 20000 us
+2024-05-13T18:05:36.714Z In(05) vmx VMXNET: send cluster threshold is 80, size = 2 recalcInterval is 20000 ticks, dontClusterSize is 128
+2024-05-13T18:05:36.715Z In(05) vmx Chipset version: 0x13
+2024-05-13T18:05:36.716Z In(05) vmx SOUNDLIB: Creating the Wave sound backend.
+2024-05-13T18:05:36.735Z No(00) vmx ConfigDB: Setting pciBridge4.pciSlotNumber = "-1"
+2024-05-13T18:05:36.735Z No(00) vmx ConfigDB: Setting pciBridge5.pciSlotNumber = "-1"
+2024-05-13T18:05:36.735Z No(00) vmx ConfigDB: Setting pciBridge6.pciSlotNumber = "-1"
+2024-05-13T18:05:36.735Z No(00) vmx ConfigDB: Setting pciBridge7.pciSlotNumber = "-1"
+2024-05-13T18:05:36.735Z No(00) vmx ConfigDB: Setting pciBridge4.pciSlotNumber = "21"
+2024-05-13T18:05:36.735Z No(00) vmx ConfigDB: Setting pciBridge5.pciSlotNumber = "22"
+2024-05-13T18:05:36.735Z No(00) vmx ConfigDB: Setting pciBridge6.pciSlotNumber = "23"
+2024-05-13T18:05:36.735Z No(00) vmx ConfigDB: Setting pciBridge7.pciSlotNumber = "24"
+2024-05-13T18:05:36.753Z In(05) vmx MigrateBusMemPrealloc: BusMem preallocation begins.
+2024-05-13T18:05:36.753Z In(05) vmx MigrateBusMemPrealloc: BusMem preallocation completes.
+2024-05-13T18:05:36.753Z No(00) vmx ConfigDB: Setting scsi0:0.redo = ""
+2024-05-13T18:05:36.753Z In(05) vmx DISK: OPEN scsi0:0 'C:\Users\mokrane\.vagrant.d\boxes\ubuntu-VAGRANTSLASH-trusty64\20190514.0.0\virtualbox\workshop\VM_BOUCLE_WORKTATION\.vagrant\machines\server1\vmware_workstation\6089d528-7f1d-4259-a515-f022ba8af0ce\generic-ubuntu2004-vmware-cl1.vmdk' persistent R[]
+2024-05-13T18:05:36.755Z Wa(03) vmx FILE: FileLockCreateEntryDirectory creation failure on 'C:\Users\mokrane\.vagrant.d\boxes\ubuntu-VAGRANTSLASH-trusty64\20190514.0.0\virtualbox\workshop\VM_BOUCLE_WORKTATION\.vagrant\machines\server1\vmware_workstation\6089d528-7f1d-4259-a515-f022ba8af0ce\generic-ubuntu2004-vmware-cl1.vmdk.lck\D10982.lck': Unknown error 38 (0x26)
+2024-05-13T18:05:36.755Z Wa(03) vmx FILE: FileIO_Lock on 'C:\Users\mokrane\.vagrant.d\boxes\ubuntu-VAGRANTSLASH-trusty64\20190514.0.0\virtualbox\workshop\VM_BOUCLE_WORKTATION\.vagrant\machines\server1\vmware_workstation\6089d528-7f1d-4259-a515-f022ba8af0ce\generic-ubuntu2004-vmware-cl1.vmdk' failed: Unknown error 38 (0x26)
+2024-05-13T18:05:36.755Z In(05) vmx OBJLIB-FILEBE : FileBEOpen: can't open 'C:\Users\mokrane\.vagrant.d\boxes\ubuntu-VAGRANTSLASH-trusty64\20190514.0.0\virtualbox\workshop\VM_BOUCLE_WORKTATION\.vagrant\machines\server1\vmware_workstation\6089d528-7f1d-4259-a515-f022ba8af0ce\generic-ubuntu2004-vmware-cl1.vmdk' : The file name is too long (524290).
+2024-05-13T18:05:36.755Z Er(02) vmx DISKLIB-DSCPTR: DescriptorOpenInt: failed to open 'C:\Users\mokrane\.vagrant.d\boxes\ubuntu-VAGRANTSLASH-trusty64\20190514.0.0\virtualbox\workshop\VM_BOUCLE_WORKTATION\.vagrant\machines\server1\vmware_workstation\6089d528-7f1d-4259-a515-f022ba8af0ce\generic-ubuntu2004-vmware-cl1.vmdk' with flags 0x21: The file name is too long
+2024-05-13T18:05:36.755Z Er(02) vmx DISKLIB-DSCPTR: DescriptorOpen: Failed to open: The filename is too long
+2024-05-13T18:05:36.755Z In(05) vmx DISKLIB-LINK  : "C:\Users\mokrane\.vagrant.d\boxes\ubuntu-VAGRANTSLASH-trusty64\20190514.0.0\virtualbox\workshop\VM_BOUCLE_WORKTATION\.vagrant\machines\server1\vmware_workstation\6089d528-7f1d-4259-a515-f022ba8af0ce\generic-ubuntu2004-vmware-cl1.vmdk" : failed to open (The filename is too long).  
+2024-05-13T18:05:36.755Z Er(02) vmx DISKLIB-CHAIN : DiskChainOpen: "C:\Users\mokrane\.vagrant.d\boxes\ubuntu-VAGRANTSLASH-trusty64\20190514.0.0\virtualbox\workshop\VM_BOUCLE_WORKTATION\.vagrant\machines\server1\vmware_workstation\6089d528-7f1d-4259-a515-f022ba8af0ce\generic-ubuntu2004-vmware-cl1.vmdk": failed to open: The filename is too long.
+2024-05-13T18:05:36.755Z In(05) vmx DISKLIB-LIB   : Failed to open 'C:\Users\mokrane\.vagrant.d\boxes\ubuntu-VAGRANTSLASH-trusty64\20190514.0.0\virtualbox\workshop\VM_BOUCLE_WORKTATION\.vagrant\machines\server1\vmware_workstation\6089d528-7f1d-4259-a515-f022ba8af0ce\generic-ubuntu2004-vmware-cl1.vmdk' with flags 0xa The filename is too long (45).
+2024-05-13T18:05:36.755Z Er(02) vmx DISK: Cannot open disk 'C:\Users\mokrane\.vagrant.d\boxes\ubuntu-VAGRANTSLASH-trusty64\20190514.0.0\virtualbox\workshop\VM_BOUCLE_WORKTATION\.vagrant\machines\server1\vmware_workstation\6089d528-7f1d-4259-a515-f022ba8af0ce\generic-ubuntu2004-vmware-cl1.vmdk': The filename is too long (45).
+2024-05-13T18:05:36.755Z In(05) vmx DISK: Opening disks took 0 ms.
+2024-05-13T18:05:36.755Z In(05) vmx Module 'Disk' power on failed.
+2024-05-13T18:05:36.755Z In(05) vmx VMX_PowerOn: ModuleTable_PowerOn = 0
+2024-05-13T18:05:36.759Z In(05) vmx SOUNDLIB: Closing Wave sound backend.
+2024-05-13T18:05:36.759Z In(05) vmx MKSThread: Requesting MKS exit
+2024-05-13T18:05:36.759Z In(05) vmx Stopping MKS/SVGA threads
+2024-05-13T18:05:36.759Z In(05) svga MKSThread: SVGA thread is skipping PowerOn
+2024-05-13T18:05:36.759Z In(05) svga MKSThread: SVGA thread is skipping the main loop
+2024-05-13T18:05:36.760Z In(05) vmx MKS/SVGA threads are stopped
+2024-05-13T18:05:36.765Z In(05) mks MKS-RenderMain: Stopped MKSBasicOps
+2024-05-13T18:05:36.768Z In(05) mks MKS PowerOff
+2024-05-13T18:05:36.768Z In(05) svga MKSThread: SVGA thread is skipping PowerOff
+2024-05-13T18:05:36.768Z In(05) svga SVGA thread is exiting
+2024-05-13T18:05:36.768Z In(05) mks MKS thread is exiting
+2024-05-13T18:05:36.769Z Wa(03) vmx 
+2024-05-13T18:05:36.775Z In(05) vmx AIOWIN32C: asyncOps=0 syncOps=0 bufSize=0Kb fixedOps=0
+2024-05-13T18:05:36.775Z In(05) aioCompletion AIO thread processed 0 completions
+2024-05-13T18:05:36.776Z In(05) deviceThread Device thread is exiting
+2024-05-13T18:05:36.776Z In(05) vmx Vix: [mainDispatch.c:1171]: VMAutomationPowerOff: Powering off.
+2024-05-13T18:05:36.777Z In(05) vmx Win32U_GetFileAttributes: GetFileAttributesExW("C:\Users\mokrane\.vagrant.d\boxes\ubuntu-VAGRANTSLASH-trusty64\20190514.0.0\virtualbox\workshop\VM_BOUCLE_WORKTATION\.vagrant\machines\server1\vmware_workstation\6089d528-7f1d-4259-a515-f022ba8af0ce\generic-ubuntu2004-vmware.vmpl", ...) failed, error: 2
+2024-05-13T18:05:36.777Z In(05) vmx Policy_SavePolicyFile: invalid arguments to function.
+2024-05-13T18:05:36.777Z In(05) vmx PolicyVMX_Exit: Could not write out policies: 15.
+2024-05-13T18:05:36.777Z In(05) vmx WORKER: asyncOps=1 maxActiveOps=1 maxPending=1 maxCompleted=0
+2024-05-13T18:05:36.778Z In(05) PowerNotifyThread PowerNotify thread exiting.
+2024-05-13T18:05:36.783Z In(05) vmx Vix: [mainDispatch.c:4213]: VMAutomation_ReportPowerOpFinished: statevar=1, newAppState=1873, success=1 additionalError=0
+2024-05-13T18:05:36.783Z In(05) vmx VMXSTATS: Ready to cleanup and munmap 27472080000.
+2024-05-13T18:05:36.783Z In(05) vmx Msg_Post: Error
+2024-05-13T18:05:36.783Z In(05) vmx [msg.disklib.NAMETOOLONG] The filename is too long
+2024-05-13T18:05:36.783Z In(05) vmx [msg.disk.noBackEnd] Cannot open the disk 'C:\Users\mokrane\.vagrant.d\boxes\ubuntu-VAGRANTSLASH-trusty64\20190514.0.0\virtualbox\workshop\VM_BOUCLE_WORKTATION\.vagrant\machines\server1\vmware_workstation\6089d528-7f1d-4259-a515-f022ba8af0ce\generic-ubuntu2004-vmware-cl1.vmdk' or one of the snapshot disks it depends on.
+2024-05-13T18:05:36.783Z In(05) vmx [msg.moduletable.powerOnFailed] Module 'Disk' power on failed.
+2024-05-13T18:05:36.783Z In(05) vmx [msg.vmx.poweron.failed] Failed to start the virtual machine.
+2024-05-13T18:05:36.783Z In(05) vmx ----------------------------------------
+2024-05-13T18:05:36.783Z In(05) vmx MsgIsAnswered: Using builtin default 'OK' as the answer for 'msg.vmx.poweron.failed'
+2024-05-13T18:05:36.783Z In(05) vmx Vix: [mainDispatch.c:4213]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1870, success=1 additionalError=0
+2024-05-13T18:05:36.783Z In(05) vmx Transitioned vmx/execState/val to poweredOff
+2024-05-13T18:05:36.783Z In(05) vmx Vix: [mainDispatch.c:4213]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1870, success=0 additionalError=0
+2024-05-13T18:05:36.783Z In(05) vmx Vix: [mainDispatch.c:4251]: Error VIX_E_FAIL in VMAutomation_ReportPowerOpFinished(): Unknown error
+2024-05-13T18:05:36.784Z In(05) vmx Vix: [mainDispatch.c:4213]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1870, success=1 additionalError=0
+2024-05-13T18:05:36.784Z In(05) vmx Transitioned vmx/execState/val to poweredOff
+2024-05-13T18:05:36.784Z In(05) vmx WQPoolFreePoll : pollIx = 3, signalHandle = 956
+2024-05-13T18:05:36.785Z In(05) vmx Vix: [mainDispatch.c:817]: VMAutomation_LateShutdown()
+2024-05-13T18:05:36.785Z In(05) vmx Vix: [mainDispatch.c:772]: VMAutomationCloseListenerSocket. Closing listener socket.
+2024-05-13T18:05:36.785Z In(05) vmx Flushing VMX VMDB connections
+2024-05-13T18:05:36.785Z In(05) vmx VmdbDbRemoveCnx: Removing Cnx from Db for '/db/connection/#1/'
+2024-05-13T18:05:36.786Z In(05) vmx VmdbCnxDisconnect: Disconnect: closed pipe for pub cnx '/db/connection/#1/' (0)
+2024-05-13T18:05:36.786Z In(05) vmx VigorTransport_ServerDestroy: server destroyed.
+2024-05-13T18:05:36.786Z In(05) vmx WQPoolFreePoll : pollIx = 2, signalHandle = 864
+2024-05-13T18:05:36.786Z In(05) vmx WQPoolFreePoll : pollIx = 1, signalHandle = 856
+2024-05-13T18:05:36.794Z In(05) vmx VMX exit (0).
+2024-05-13T18:05:36.794Z In(05) vmx OBJLIB-LIB: ObjLib cleanup done.
+2024-05-13T18:05:36.794Z In(05) vmx AIOMGR-S : stat o=1 r=0 w=0 i=0 br=0 bw=0
