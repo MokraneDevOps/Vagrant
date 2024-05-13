@@ -36,7 +36,7 @@ Vagrant.configure("2") do |config|
 
   # Configuration de la provision Ansible local
   config.vm.provision "ansible_local" do |ansible|
-    ansible.playbook = "playbook.yml.txt"
+    ansible.playbook = "playbook.yml.txts"
     ansible.install_mode = "pip"
     ansible.pip_install_cmd = "sudo apt-get install python3-pip -y"
     ansible.version = "2.9.6"

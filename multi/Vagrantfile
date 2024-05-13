@@ -1,0 +1,40 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure("2") do |config|
+  # Définition de la configuration pour la machine virtuelle "master"
+  config.vm.define "master" do |master|
+    master.vm.box = "ubuntu/jammy64"  # Utilisation de la box Ubuntu Jammy64 pour la machine "master"
+    master.vm.hostname = "master"  # Définition du nom d'hôte de la machine "master" en tant que "master"
+
+    # Configuration spécifique au fournisseur VirtualBox pour la machine "master"
+    master.vm.provider "virtualbox" do |vb|
+      vb.memory = 1024  # Configuration de la mémoire à 1024 Mo pour la machine "master"
+      vb.cpus = 2  # Configuration de 2 CPU pour la machine "master"
+    end
+  end
+
+  # Définition de la configuration pour la machine virtuelle "worker1"
+  config.vm.define "worker1" do |worker1|
+    worker1.vm.box = "centos/7"  # Utilisation de la box CentOS 7 pour la machine "worker1"
+    worker1.vm.hostname = "worker1"  # Définition du nom d'hôte de la machine "worker1" en tant que "worker1"
+
+    # Configuration spécifique au fournisseur VirtualBox pour la machine "worker1"
+    worker1.vm.provider "virtualbox" do |vb|
+      vb.memory = 1024  # Configuration de la mémoire à 1024 Mo pour la machine "worker1"
+      vb.cpus = 2  # Configuration de 2 CPU pour la machine "worker1"
+    end
+  end
+
+  # Définition de la configuration pour la machine virtuelle "worker2"
+  config.vm.define "worker2" do |worker2|
+    worker2.vm.box = "debian/stretch64"  # Utilisation de la box Debian Stretch64 pour la machine "worker2"
+    worker2.vm.hostname = "worker2"  # Définition du nom d'hôte de la machine "worker2" en tant que "worker2"
+
+    # Configuration spécifique au fournisseur VirtualBox pour la machine "worker2"
+    worker2.vm.provider "virtualbox" do |vb|
+      vb.memory = 1024  # Configuration de la mémoire à 1024 Mo pour la machine "worker2"
+      vb.cpus = 2  # Configuration de 2 CPU pour la machine "worker2"
+    end
+  end
+end
